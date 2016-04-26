@@ -18,8 +18,7 @@ h3 {
 
 hr {
 
-	border: 2px solid #DDDDDD;
-	margin-bottom: 20px;
+	border: 1px solid #DDDDDD;
 }
 
 body {
@@ -79,25 +78,13 @@ header {
     margin-top:90px;
     margin-left: auto; 
     margin-right: auto;
-	text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
+	
 }
 
-#socialIcon a {
-    vertical-align: top;
-    display: inline-block;
-    display: inline;
-    zoom: 1;
+#socialIcon {
+	width: 60px;
+	height: 60px;
 }
-
-.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0
-}
-
 
 
 h4 {
@@ -121,7 +108,7 @@ section {
 
 .main {
 	max-width: 650px;
-	clear: both;
+	float: left;
 }
 
 .rightArea {
