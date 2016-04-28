@@ -19,10 +19,9 @@ h1 {
 
 }
 
-
 h2 {
 	color: #4aaaa5;
-	font-size: 26px;
+	font-size: 28px;
 	line-height: 1.25;
 	margin-top: 0px;
 	margin-bottom: 20px;
@@ -31,7 +30,7 @@ h2 {
 
 h4 {
 	color: #4aaaa5;
-	font-size: 20px;
+	font-size: 22px;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-weight: bold;
@@ -48,8 +47,11 @@ body {
 	background-image: url("../images/pixel_weave-bg.png");
 	margin: 0;
 	padding: 0;     
-	min-height: 100%; 
-	height: 100%;  
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -90px;
 }
 
 p {
@@ -99,6 +101,7 @@ header {
   display: block;
   padding: 0 10px;
   border-right: 1px solid #DDDDDD;
+  
 }
 
 .nav li:last-child a {
@@ -108,12 +111,12 @@ header {
 }
 
 .nav a:hover {
-	color:#4aaaa5;
+	color:#FF5700;
 }
-
 
 .nav li {
     display: inline-block;
+    
     
  }
 
@@ -133,28 +136,84 @@ header {
 
 }
 
+#thicker {
+	border: 2px solid #DDDDDD;
+	margin-bottom: 22px;
+}
+
 #socialBtns {
 	width: 270px;
     margin-top:90px;
 	
 }
 
-#socialIcon {
+.socialIcon {
 	width: 60px;
 	height: 60px;
-	margin-right: 13px;
 }
 
-#socialIcon:last-child {
+.socialBtns a {
+	margin-right: 8px;
+}
+
+.socialBtns a:last-child {
 	margin-right: 0px;
 }
-
 
 .content {
 	padding: 0;
 	max-width: 960px;
 	margin: 0px auto 0px;
 }
+
+/* Contact Form Elements */
+
+form label {
+	color: #777777;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+form input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #777777;
+	padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: #CCCCCC;
+}
+
+form textarea {
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	height: 200px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #777777;
+	padding: 10px 0px 0px 10px;
+}
+
+#formBtn {
+	background: #4aaaa5;
+	color: #fff;
+	text-align:center;
+	width: 115px;
+	height: 40px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+#formBtn:hover {
+	background: #FF5700;
+}
+
 section {
 	padding: 30px;
 	background: #fff;
@@ -163,6 +222,7 @@ section {
 
 .main {
 	max-width: 650px;
+	width: 650px;
 	float: left;
 }
 
@@ -171,7 +231,9 @@ section {
 	float: right;
 }
 
-footer {
+/* Footer Styles */
+
+.footer {
 	width: 100%;
 	background: #666666;
 	border-top: 10px solid #4aaaa5;
@@ -182,15 +244,11 @@ footer {
 #footerText {
 	text-align: center;
 	font-size: 12px;
-	color: #fff;
+	color: #DDDDDD;
+	padding-top: 30px;
 }
 
-.wrapper {
-min-height: 100%;
-height: auto !important;
-height: 100%;
-margin: 0 auto -90px;
-}
 .footer, .push {
 height: 90px;
+clear: both;
 }
