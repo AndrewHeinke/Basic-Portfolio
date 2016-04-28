@@ -141,11 +141,7 @@ header {
 	margin-bottom: 22px;
 }
 
-#socialBtns {
-	width: 270px;
-    margin-top:90px;
-	
-}
+
 
 .socialIcon {
 	width: 60px;
@@ -158,6 +154,30 @@ header {
 
 .socialBtns a:last-child {
 	margin-right: 0px;
+}
+
+.socialBtns a:hover {
+	-webkit-filter: opacity(70%);
+}
+
+
+/* Main Content Containers */
+
+section {
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #DDDDDD;
+}
+
+.main {
+	max-width: 650px;
+	width: 650px;
+	float: left;
+}
+
+.rightArea {
+	width: 270px;
+	float: right;
 }
 
 .content {
@@ -197,6 +217,7 @@ form textarea {
 	font-size: 14px;
 	color: #777777;
 	padding: 10px 0px 0px 10px;
+	line-height: 21px;
 }
 
 #formBtn {
@@ -214,22 +235,76 @@ form textarea {
 	background: #FF5700;
 }
 
-section {
-	padding: 30px;
-	background: #fff;
-	border: 1px solid #DDDDDD;
-}
 
-.main {
-	max-width: 650px;
-	width: 650px;
+/* Portfolio Images */
+
+.portfolioPicLeft {
+	width: 275px;
+	height: 205px;
 	float: left;
+	margin-bottom: 55px;
+	background-size: cover;
+  	position: relative;
+  	display: inline;
 }
 
-.rightArea {
-	width: 270px;
+.portfolioPicRight {
+	width: 275px;
+	height: 205px;
 	float: right;
+	margin-bottom: 55px;
+	background-size: cover;
+  	position: relative;
+  	display: inline;
 }
+
+.last {
+	margin-bottom: 0px;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.tiger {
+	background-image: url(../images/tiger.jpg);
+	
+}
+
+.cycling {
+	background-image: url(../images/cycling.jpg);
+}
+
+.mini-cooper {
+	background-image: url(../images/mini-cooper.jpg);
+}
+
+.peppers {
+	background-image: url(../images/peppers.jpg);
+}
+
+.rhino {
+	background-image: url(../images/rhinoceros.jpg);
+}
+
+.swimming {
+	background-image: url(../images/swimming.jpg);
+}
+
+.imgText {
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	color: #FFFFFF;
+	font-weight: normal;
+	height: 60px;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	position: absolute;
+}
+
 
 /* Footer Styles */
 
